@@ -1,5 +1,5 @@
 # react-round-flags
-Fun with flags (in React Native)!
+Fun with flags (in React Native)! This repository was forked form [pohodnya/react-native-round-flags](https://github.com/pohodnya/react-native-round-flags) to use in reactJS projects.
 
 ### Example
 ![Round Icons demonstration](example.png)
