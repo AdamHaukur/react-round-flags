@@ -1,6 +1,6 @@
 {
-  "name": "react-native-round-flags",
-  "version": "1.0.4",
+  "name": "react-round-flags",
+  "version": "1.0.5",
   "description": ":flag: Fun with round flags!",
   "main": "index.js",
   "scripts": {
@@ -10,11 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/pohodnya/react-native-round-flags.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "react"
+  ],
+  "author": "Sisir K. Adhikari",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pohodnya/react-native-round-flags/issues"
+    "url": "https://github.com/prionkor/react-round-flags/issues"
   },
-  "homepage": "https://github.com/pohodnya/react-native-round-flags#readme"
+  "homepage": "https://github.com/prionkor/react-round-flags#readme",
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  }
 }
