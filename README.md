@@ -1,4 +1,4 @@
-# react-native-round-flags
+# react-round-flags
 Fun with flags (in React Native)!
 
 ### Example
@@ -6,7 +6,7 @@ Fun with flags (in React Native)!
 
 ### Usage
 ```javascript
-import Flag from 'react-native-round-flags';
+import Flag from 'react-round-flags';
 
 const JustAFlag = () =>
   <Flag code="DE"/>
