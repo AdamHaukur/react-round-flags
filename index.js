@@ -7,10 +7,15 @@ const Flag = ({ size = 64, code, type = 'shiny', style }) => {
   const flag = flags[`icons${size}`][code];
   const unknownFlag = flags[`icons${size}`]['unknown'];
 
+  var styles = Object.assign({},
+    { width: size, height: size },
+    style
+  );
+
   return <img
-      src={flag || unknownFlag}
-      style={[{ width: size, height: size }, style]}
-    />
+    src={flag || unknownFlag}
+    style={styles}
+  />
 };
 
 Flag.propTypes = {
